@@ -1,0 +1,2 @@
+class Blague < ApplicationRecord
+end
