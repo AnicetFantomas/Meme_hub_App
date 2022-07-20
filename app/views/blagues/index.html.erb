@@ -1,5 +1,9 @@
 <div><h2>Memes</h2></div>
-
+</br></br>
+<div><%= link_to "create a new meme", new_blague_path() %></div><hr>
 <% @blagues.each do |blague| %>
-    <div> nom : <%= blague.name %></div>
+    <div> name : <%= blague.name %></div>
+    <div> content : <%= blague.content %></div>
+    <div> author : <%= blague.author %></div>
+    <div><%= link_to "see the meme", blague_path(blague) %></div><hr>
 <% end %>
