@@ -5,5 +5,7 @@
     <div> name : <%= blague.name %></div>
     <div> content : <%= blague.content %></div>
     <div> author : <%= blague.author %></div>
-    <div><%= link_to "see the meme", blague_path(blague) %></div><hr>
+    <div><%= link_to "see the meme", blague_path(blague) %></div>
+    <div><%= link_to "edit the meme", edit_blague_path(blague) %></div>
+    <div><%= link_to "delete the meme", blague_path(blague), method: :delete %></div><hr>
 <% end %>

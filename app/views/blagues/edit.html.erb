@@ -1,14 +1,7 @@
-<div>This is a where we create new memes</div>
+<h2>Edit the meme</h2>
 
 <%= form_with model: @blague, local: true do |form| %> 
-    <% if @blague.errors.any? %>
-        <h2>An error occured when submitting</h2>
-        <ul>
-            <% @blague.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-        <%end%>
-        </ul>
-    <%end%>
+
     <p>
         <%= form.label :name %>
         <%= form.text_field :name %>
@@ -25,6 +18,6 @@
     </p>
 
     <p>
-        <%= form.submit "publish your meme"%>
+        <%= form.submit "edit your meme"%>
     </p>
 <%end%>

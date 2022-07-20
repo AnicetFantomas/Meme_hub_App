@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   root "home#index"
   get "home", to: "home#index"
 
-  resources :blagues, only: [:show, :index, :new, :create]
+  resources :blagues, only: [:show, :index, :new, :create, :edit, :update, :destroy]
 end

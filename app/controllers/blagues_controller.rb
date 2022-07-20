@@ -11,6 +11,10 @@ class BlaguesController < ApplicationController
         @blague = Blague.new
     end
 
+    def edit 
+        @blague = Blague.find(params[:id])
+    end
+
     def create 
         @blague = Blague.new(params_blagues)
 
@@ -20,6 +24,21 @@ class BlaguesController < ApplicationController
         else
             render :new
         end
+    end
+
+    def update
+        @blague = Blague.find(params[:id])
+        if @blague.update(params_blagues)
+            redirect_to blagues_path
+            else
+                render edit
+            end
+    end
+
+    def destroy
+        @blague = Blague.find(params[:id])
+        @blague.destroy
+        redirect_to blagues_path
     end
 
     private
