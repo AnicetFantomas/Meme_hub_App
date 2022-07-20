@@ -1,1 +1,5 @@
-<div>je suis l'index des blagues</div>
+<div><h2>Memes</h2></div>
+
+<% @blagues.each do |blague| %>
+    <div> nom : <%= blague.name %></div>
+<% end %>

@@ -816,3 +816,230 @@ Processing by BlaguesController#show as HTML
 Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.6ms | Allocations: 4844)
 
 
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:03:39 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.6ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3141)
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 0.6ms | Allocations: 4851)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:04:59 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.4ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 194)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3164)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 4874)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:06:21 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.5ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 195)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3171)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.5ms | Allocations: 4880)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:07:01 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.3ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3172)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 0.3ms | Allocations: 4870)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:08:33 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.3ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3176)
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 0.3ms | Allocations: 4873)
+
+
+Started GET "/blagues/2" for 127.0.0.1 at 2022-07-20 02:09:52 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlague Load (0.3ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2527)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 3408)
+
+
+Started GET "/blagues/2" for 127.0.0.1 at 2022-07-20 02:11:22 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlague Load (0.4ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 15048)
+Completed 200 OK in 45ms (Views: 24.2ms | ActiveRecord: 7.3ms | Allocations: 19478)
+
+
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:11:29 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  Rendered blagues/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2642)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3071)
+
+
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:13:08 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  Rendered blagues/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3142)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 4290)
+
+
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:30:13 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  Rendered blagues/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1162)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1247)
+Completed 500 Internal Server Error in 8ms (Allocations: 2378)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div><h2>Memes</h2></div>
+
+<div><%= @blagues.each do |blague| %>
+):
+1:    <div><h2>Memes</h2></div>
+2:    
+3:    <div><%= @blagues.each do |blague| %>
+  
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:31:06 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  Rendered blagues/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1148)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1233)
+Completed 500 Internal Server Error in 10ms (Allocations: 2350)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div><h2>Memes</h2></div>
+
+<div><% @blagues.each do |blague| %>
+):
+1:    <div><h2>Memes</h2></div>
+2:    
+3:    <div><% @blagues.each do |blague| %>
+  
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:31:34 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  Rendered blagues/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1153)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1238)
+Completed 500 Internal Server Error in 9ms (Allocations: 2354)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div><h2>Memes</h2></div>
+
+<div><% @blagues.each do |blague| %></div>
+):
+1:    <div><h2>Memes</h2></div>
+2:    
+3:    <div><% @blagues.each do |blague| %></div>
+  
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+app/views/blagues/index.html.erb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:37:31 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  [1m[36mBlague Load (0.8ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues"[0m
+  ↳ app/views/blagues/index.html.erb:3
+  Rendered blagues/index.html.erb within layouts/application (Duration: 27.3ms | Allocations: 5357)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 5441)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 10.9ms | Allocations: 6557)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div><h2>Memes</h2></div>
+    2: 
+    3: <% @blagues.each do |blague| %>
+    4:     <div><%= @blague.name %></div>
+    5: <% end %>
+  
+app/views/blagues/index.html.erb:4
+app/views/blagues/index.html.erb:3
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:38:43 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  [1m[36mBlague Load (0.6ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues"[0m
+  ↳ app/views/blagues/index.html.erb:3
+  Rendered blagues/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2241)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2325)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms | Allocations: 3439)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div><h2>Memes</h2></div>
+    2: 
+    3: <% @blagues.each do |blague| %>
+    4:     <div> nom : <%= @blague.name %></div>
+    5: <% end %>
+  
+app/views/blagues/index.html.erb:4
+app/views/blagues/index.html.erb:3
+Started GET "/blagues" for 127.0.0.1 at 2022-07-20 02:39:22 +0200
+Processing by BlaguesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/index.html.erb within layouts/application
+  [1m[36mBlague Load (0.5ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues"[0m
+  ↳ app/views/blagues/index.html.erb:3
+  Rendered blagues/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 857)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3838)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.5ms | Allocations: 4992)
+
+
