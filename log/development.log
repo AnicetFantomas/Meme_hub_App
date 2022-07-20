@@ -772,3 +772,47 @@ Completed 404 Not Found in 48ms (ActiveRecord: 23.3ms | Allocations: 7634)
 ActiveRecord::RecordNotFound (Couldn't find Blague with 'id'=1):
   
 app/controllers/blagues_controller.rb:6:in `show'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBlague Create (1.2ms)[0m  [1m[32mINSERT INTO "blagues" ("name", "content", "author", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "my first meme"], ["content", "truth or dare ?"], ["author", "Anicet"], ["created_at", "2022-07-19 23:45:55.507265"], ["updated_at", "2022-07-19 23:45:55.507265"]]
+  [1m[36mTRANSACTION (33.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBlague Load (0.7ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBlague Create (0.6ms)[0m  [1m[32mINSERT INTO "blagues" ("name", "content", "author", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "my second  meme"], ["content", "Your hello world code is not runing"], ["author", "Jefe"], ["created_at", "2022-07-19 23:48:54.963368"], ["updated_at", "2022-07-19 23:48:54.963368"]]
+  [1m[36mTRANSACTION (14.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBlague Load (0.8ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues"[0m
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 01:57:47 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.7ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 15427)
+Completed 200 OK in 86ms (Views: 33.1ms | ActiveRecord: 12.0ms | Allocations: 27508)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 01:58:01 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.6ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 189)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3163)
+Completed 200 OK in 21ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 4859)
+
+
+Started GET "/blagues/1" for 127.0.0.1 at 2022-07-20 02:00:31 +0200
+Processing by BlaguesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlague Load (0.6ms)[0m  [1m[34mSELECT "blagues".* FROM "blagues" WHERE "blagues"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/blagues_controller.rb:6:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering blagues/show.html.erb within layouts/application
+  Rendered blagues/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 183)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3147)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.6ms | Allocations: 4844)
+
+
