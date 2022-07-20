@@ -1,1 +1,22 @@
 <div>This is a where we create new memes</div>
+
+<%= form_with model: @blague, local: true do |form| %> 
+    <p>
+        <%= form.label :name %>
+        <%= form.text_field :name %>
+    </p>
+
+    <p>
+        <%= form.label :content %>
+        <%= form.text_area :content %>
+    </p>
+
+    <p>
+        <%= form.label :author %>
+        <%= form.text_field :author %>
+    </p>
+
+    <p>
+        <%= form.submit "publish your meme"%>
+    </p>
+<%end %>

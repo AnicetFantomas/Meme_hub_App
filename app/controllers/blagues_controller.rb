@@ -12,5 +12,21 @@ class BlaguesController < ApplicationController
     end
 
     def create 
+        @blague = Blague.new(params_blagues)
+
+
+        if @blague.save
+        redirect_to blagues_path
+        else
+            render :new
+        end
     end
+
+    private
+
+    def params_blagues
+        params.require(:blague).permit(:name, :content, :author)
+    end
+
+
 end
